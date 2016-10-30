@@ -1,5 +1,7 @@
 #Open websites you regularly check in one go!
-  
+
+Modules used: webbrowser, sys  
+
 No command line argument runs the script.  
   
 Command line arguments:  
