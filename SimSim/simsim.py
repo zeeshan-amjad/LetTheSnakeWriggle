@@ -1,11 +1,11 @@
 import webbrowser, sys
 
-def runScript():
+def runScript():        #opens the list of urls stored in the text file: simsim.txt
         urlList = getUrlList()
         if len (urlList) == 0:
                 c = input ('Oops! There are no URLs! Want to add some? [Y/N]: ')
                 while c == 'Y' or c == 'y':
-                        addUrl()
+                        addUrl()        #adds a url input by the user
                         c = input ('Want to add more? [Y/N]: ')
         urlList = getUrlList()
         for url in urlList:
